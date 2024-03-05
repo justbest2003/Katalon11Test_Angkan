@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Customer Details Form/input
 
 WebUI.click(findTestObject('Page_Customer Details Form/input_Age_sub'))
 
-WebUI.verifyTextPresent('Customer Details', false)
+WebUI.verifyTextPresent('Customer Details Form', false)
 
 WebUI.takeScreenshot('C:\\xampp\\htdocs\\customer\\img\\TC08.png')
 

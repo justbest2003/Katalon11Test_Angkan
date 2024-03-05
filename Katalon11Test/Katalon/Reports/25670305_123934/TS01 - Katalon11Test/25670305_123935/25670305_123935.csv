@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Katalon11Test,Chrome 122.0.0.0,,,05-03-2024 12:39:42,05-03-2024 12:40:13,31.347s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0101,Chrome 122.0.0.0,,,05-03-2024 12:39:42,05-03-2024 12:39:47,4.390s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:39:42,05-03-2024 12:39:44,1.145s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:39:44,05-03-2024 12:39:44,0.080s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:39:44,05-03-2024 12:39:44,0.682s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canonc"")",Chrome 122.0.0.0,,,05-03-2024 12:39:44,05-03-2024 12:39:45,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""2"")",Chrome 122.0.0.0,,,05-03-2024 12:39:45,05-03-2024 12:39:45,0.553s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:39:45,05-03-2024 12:39:46,0.318s,PASSED
+"verifyTextPresent(""Customer Details"", false)",Chrome 122.0.0.0,,,05-03-2024 12:39:46,05-03-2024 12:39:46,0.262s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC01.png"")",Chrome 122.0.0.0,,,05-03-2024 12:39:46,05-03-2024 12:39:46,0.334s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:39:46,05-03-2024 12:39:47,0.264s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0102,Chrome 122.0.0.0,,,05-03-2024 12:39:47,05-03-2024 12:39:50,3.414s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:39:47,05-03-2024 12:39:47,0.532s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:39:47,05-03-2024 12:39:47,0.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""Johnj"")",Chrome 122.0.0.0,,,05-03-2024 12:39:47,05-03-2024 12:39:48,0.629s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncanoncano"")",Chrome 122.0.0.0,,,05-03-2024 12:39:48,05-03-2024 12:39:48,0.612s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""149"")",Chrome 122.0.0.0,,,05-03-2024 12:39:48,05-03-2024 12:39:49,0.556s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:39:49,05-03-2024 12:39:49,0.293s,PASSED
+"verifyTextPresent(""Customer Details"", false)",Chrome 122.0.0.0,,,05-03-2024 12:39:49,05-03-2024 12:39:50,0.284s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC02.png"")",Chrome 122.0.0.0,,,05-03-2024 12:39:50,05-03-2024 12:39:50,0.345s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:39:50,05-03-2024 12:39:50,0.074s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0103,Chrome 122.0.0.0,,,05-03-2024 12:39:50,05-03-2024 12:39:53,3.336s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:39:50,05-03-2024 12:39:51,0.517s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:39:51,05-03-2024 12:39:51,0.046s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjo"")",Chrome 122.0.0.0,,,05-03-2024 12:39:51,05-03-2024 12:39:51,0.595s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncanoncanon"")",Chrome 122.0.0.0,,,05-03-2024 12:39:51,05-03-2024 12:39:52,0.582s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""150"")",Chrome 122.0.0.0,,,05-03-2024 12:39:52,05-03-2024 12:39:52,0.561s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:39:52,05-03-2024 12:39:53,0.298s,PASSED
+"verifyTextPresent(""Customer Details"", false)",Chrome 122.0.0.0,,,05-03-2024 12:39:53,05-03-2024 12:39:53,0.268s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC03.png"")",Chrome 122.0.0.0,,,05-03-2024 12:39:53,05-03-2024 12:39:53,0.328s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:39:53,05-03-2024 12:39:53,0.095s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0104,Chrome 122.0.0.0,,,05-03-2024 12:39:53,05-03-2024 12:39:57,3.310s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:39:53,05-03-2024 12:39:54,0.553s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:39:54,05-03-2024 12:39:54,0.050s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""Johnjohnjohnjo"")",Chrome 122.0.0.0,,,05-03-2024 12:39:54,05-03-2024 12:39:55,0.595s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:39:55,05-03-2024 12:39:55,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:39:55,05-03-2024 12:39:56,0.546s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:39:56,05-03-2024 12:39:56,0.294s,PASSED
+"verifyTextPresent(""Customer Details"", false)",Chrome 122.0.0.0,,,05-03-2024 12:39:56,05-03-2024 12:39:56,0.255s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC04.png"")",Chrome 122.0.0.0,,,05-03-2024 12:39:56,05-03-2024 12:39:57,0.321s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:39:57,05-03-2024 12:39:57,0.076s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0105,Chrome 122.0.0.0,,,05-03-2024 12:39:57,05-03-2024 12:40:00,3.293s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:39:57,05-03-2024 12:39:57,0.573s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:39:57,05-03-2024 12:39:57,0.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjohnjohnjoh"")",Chrome 122.0.0.0,,,05-03-2024 12:39:57,05-03-2024 12:39:58,0.567s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:39:58,05-03-2024 12:39:58,0.526s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:39:58,05-03-2024 12:39:59,0.584s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:39:59,05-03-2024 12:39:59,0.275s,PASSED
+"verifyTextPresent(""Customer Details"", false)",Chrome 122.0.0.0,,,05-03-2024 12:39:59,05-03-2024 12:40:00,0.274s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC05.png"")",Chrome 122.0.0.0,,,05-03-2024 12:40:00,05-03-2024 12:40:00,0.308s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:40:00,05-03-2024 12:40:00,0.092s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0106,Chrome 122.0.0.0,,,05-03-2024 12:40:00,05-03-2024 12:40:03,3.309s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:40:00,05-03-2024 12:40:01,0.544s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:40:01,05-03-2024 12:40:01,0.052s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""John"")",Chrome 122.0.0.0,,,05-03-2024 12:40:01,05-03-2024 12:40:01,0.568s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:40:01,05-03-2024 12:40:02,0.544s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:40:02,05-03-2024 12:40:02,0.532s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:40:02,05-03-2024 12:40:03,0.295s,PASSED
+"verifyTextPresent(""Customer Details Form"", false)",Chrome 122.0.0.0,,,05-03-2024 12:40:03,05-03-2024 12:40:03,0.257s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC06.png"")",Chrome 122.0.0.0,,,05-03-2024 12:40:03,05-03-2024 12:40:03,0.375s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:40:03,05-03-2024 12:40:03,0.106s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0108,Chrome 122.0.0.0,,,05-03-2024 12:40:03,05-03-2024 12:40:07,3.365s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:40:03,05-03-2024 12:40:04,0.588s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:40:04,05-03-2024 12:40:04,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:40:04,05-03-2024 12:40:05,0.583s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""cano"")",Chrome 122.0.0.0,,,05-03-2024 12:40:05,05-03-2024 12:40:05,0.546s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:40:05,05-03-2024 12:40:06,0.531s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:40:06,05-03-2024 12:40:06,0.285s,PASSED
+"verifyTextPresent(""Customer Details Form"", false)",Chrome 122.0.0.0,,,05-03-2024 12:40:06,05-03-2024 12:40:06,0.261s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC08.png"")",Chrome 122.0.0.0,,,05-03-2024 12:40:06,05-03-2024 12:40:07,0.380s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:40:07,05-03-2024 12:40:07,0.108s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0110,Chrome 122.0.0.0,,,05-03-2024 12:40:07,05-03-2024 12:40:10,3.457s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:40:07,05-03-2024 12:40:07,0.603s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:40:07,05-03-2024 12:40:07,0.045s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:40:07,05-03-2024 12:40:08,0.613s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:40:08,05-03-2024 12:40:09,0.569s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""0"")",Chrome 122.0.0.0,,,05-03-2024 12:40:09,05-03-2024 12:40:09,0.556s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:40:09,05-03-2024 12:40:09,0.294s,PASSED
+"verifyTextPresent(""Customer Details Form"", false)",Chrome 122.0.0.0,,,05-03-2024 12:40:09,05-03-2024 12:40:10,0.269s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC10.png"")",Chrome 122.0.0.0,,,05-03-2024 12:40:10,05-03-2024 12:40:10,0.385s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:40:10,05-03-2024 12:40:10,0.090s,PASSED
+,,,,,,,
+Test Cases/UC01 - Katalon11Test/TC0111,Chrome 122.0.0.0,,,05-03-2024 12:40:10,05-03-2024 12:40:13,3.327s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:40:10,05-03-2024 12:40:11,0.552s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:40:11,05-03-2024 12:40:11,0.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:40:11,05-03-2024 12:40:11,0.575s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:40:11,05-03-2024 12:40:12,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""151"")",Chrome 122.0.0.0,,,05-03-2024 12:40:12,05-03-2024 12:40:12,0.538s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:40:12,05-03-2024 12:40:13,0.280s,PASSED
+"verifyTextPresent(""Customer Details Form"", false)",Chrome 122.0.0.0,,,05-03-2024 12:40:13,05-03-2024 12:40:13,0.242s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC11.png"")",Chrome 122.0.0.0,,,05-03-2024 12:40:13,05-03-2024 12:40:13,0.385s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:40:13,05-03-2024 12:40:13,0.090s,PASSED
