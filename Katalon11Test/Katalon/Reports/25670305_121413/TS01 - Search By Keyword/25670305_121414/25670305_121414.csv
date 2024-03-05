@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Search By Keyword,Chrome 122.0.0.0,,,05-03-2024 12:14:20,05-03-2024 12:14:24,4.296s,PASSED
+,,,,,,,
+Test Cases/UC01 - Seach By Keyword/TC0101,Chrome 122.0.0.0,,,05-03-2024 12:14:20,05-03-2024 12:14:24,4.175s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:14:20,05-03-2024 12:14:21,1.138s,PASSED
+"navigateToUrl(""http://127.0.0.1/customer/"")",Chrome 122.0.0.0,,,05-03-2024 12:14:21,05-03-2024 12:14:21,0.076s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_First Name_firstname""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:14:21,05-03-2024 12:14:22,0.638s,PASSED
+"setText(findTestObject(""Page_Customer Details Form/input_Last Name_lastname""), ""canonc"")",Chrome 122.0.0.0,,,05-03-2024 12:14:22,05-03-2024 12:14:22,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Details Form/input_Age_age""), ""2"")",Chrome 122.0.0.0,,,05-03-2024 12:14:22,05-03-2024 12:14:23,0.580s,PASSED
+"verifyTextPresent(""Customer Details"", false)",Chrome 122.0.0.0,,,05-03-2024 12:14:23,05-03-2024 12:14:23,0.262s,PASSED
+"click(findTestObject(""Page_Customer Details Form/input_Age_sub""))",Chrome 122.0.0.0,,,05-03-2024 12:14:23,05-03-2024 12:14:23,0.320s,PASSED
+"takeScreenshot(""C:\xampp\htdocs\customer\img\TC01.png"")",Chrome 122.0.0.0,,,05-03-2024 12:14:23,05-03-2024 12:14:24,0.347s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:14:24,05-03-2024 12:14:24,0.087s,PASSED

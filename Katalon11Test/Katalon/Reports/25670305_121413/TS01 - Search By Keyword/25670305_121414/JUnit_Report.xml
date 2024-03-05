@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Search By Keyword" time="4.296" tests="1" failures="0" errors="0">
+   <testsuite name="TS01 - Search By Keyword" tests="1" failures="0" errors="0" time="4.296" skipped="0" timestamp="05-03-2024T12:14:20" hostname="Administrator - 10.53.16.208" id="Test Suites/TS01 - Search By Keyword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Project Angkan\\WebProject\\Reports\\25670305_121413\\TS01 - Search By Keyword\\25670305_121414"/>
+         <property name="logFiles" value="D:\\Project Angkan\\WebProject\\Reports\\25670305_121413\\TS01 - Search By Keyword\\25670305_121414\\execution0.log"/>
+         <property name="attachments" value="C:\xampp\htdocs\customer\img\TC01.png"/>
+         <property name="hostName" value="Administrator - 10.53.16.208"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.53.16.208"/>
+         <property name="sessionId" value="e9bfeac56d96ddaacef24d7a4fce6057"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC01 - Seach By Keyword/TC0101" time="4.175" classname="Test Cases/UC01 - Seach By Keyword/TC0101" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:14:20 - [TEST_CASE][PASSED] - Test Cases/UC01 - Seach By Keyword/TC0101: Test Cases/UC01 - Seach By Keyword/TC0101
+
+05-03-2024T12:14:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:14:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:14:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:14:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:14:21 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customer/"): Navigate to 'http://127.0.0.1/customer/' successfully
+
+05-03-2024T12:14:21 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customer/' successfully
+
+05-03-2024T12:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Details Form/input_First Name_firstname"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Details Form/input_First Name_firstname'
+
+05-03-2024T12:14:22 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Details Form/input_First Name_firstname'
+
+05-03-2024T12:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Details Form/input_Last Name_lastname"), "canonc"): Text 'canonc' is set on object 'Object Repository/Page_Customer Details Form/input_Last Name_lastname'
+
+05-03-2024T12:14:22 - [MESSAGE][PASSED] - Text 'canonc' is set on object 'Object Repository/Page_Customer Details Form/input_Last Name_lastname'
+
+05-03-2024T12:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Details Form/input_Age_age"), "2"): Text '2' is set on object 'Object Repository/Page_Customer Details Form/input_Age_age'
+
+05-03-2024T12:14:23 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Customer Details Form/input_Age_age'
+
+05-03-2024T12:14:23 - [TEST_STEP][PASSED] - verifyTextPresent("Customer Details", false): Text 'Customer Details' is present on page 
+
+05-03-2024T12:14:23 - [MESSAGE][PASSED] - Text 'Customer Details' is present on page 
+
+05-03-2024T12:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Details Form/input_Age_sub")): Object: 'Object Repository/Page_Customer Details Form/input_Age_sub' is clicked on
+
+05-03-2024T12:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Details Form/input_Age_sub' is clicked on
+
+05-03-2024T12:14:23 - [TEST_STEP][PASSED] - takeScreenshot("C:\xampp\htdocs\customer\img\TC01.png"): Taking screenshot successfully
+
+05-03-2024T12:14:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\xampp\htdocs\customer\img\TC01.png]]
+
+05-03-2024T12:14:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:14:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-03-2024T12:14:20 - [TEST_SUITE][PASSED] - TS01 - Search By Keyword: Test Cases/UC01 - Seach By Keyword/TC0101]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
